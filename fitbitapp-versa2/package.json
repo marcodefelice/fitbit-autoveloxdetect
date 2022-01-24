@@ -1,0 +1,34 @@
+{
+  "fitbit": {
+    "appUUID": "2f2ec051-0710-4398-a1f2-0b232fa62041",
+    "appType": "app",
+    "appDisplayName": "Autovelox Detect",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#f44336",
+    "requestedPermissions": [
+      "access_location",
+      "access_internet",
+      "access_activity",
+      "access_user_profile",
+      "run_background"
+    ],
+    "buildTargets": [
+      "meson",
+      "gemini",
+      "mira",
+      "higgs"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Autovelox Detect"
+      },
+      "it": {
+        "name": "MotoMaps"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~4.1.0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "lambda-autoveloxapi",
+  "version": "1.0.0",
+  "description": "Simle labda far call endpoit and get autovelox geolocalized",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "getdata": "node app/getdata.js",
+    "appInstall": "node app/install.js",
+    "find": "node app/finddata.js",
+    "start": "node Index.js"
+  },
+  "author": "Marco De Felice",
+  "license": "ISC",
+  "dependencies": {
+    "dynamodb": "^1.2.1",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "requestify": "^0.2.5"
+  }
+}
